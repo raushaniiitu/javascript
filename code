@@ -1,0 +1,38 @@
+<head>
+	<script type="text/javascript">
+		
+		function notEmpty()
+		{
+             var mytextfield=document.getElementById('mytext');
+             if(mytext.value!='')
+             {
+             	alert("you entered:"+mytext);
+             }
+            else
+            {
+            	alert("would you plaese enter some text");
+            }
+
+		}
+		function submit()
+		{
+			alert("form validated successfully");
+		}
+	</script>
+</head>
+<body>
+	<form onsubmit="submit()" method='get' action="https://www.google.com">
+    <label> Username </label>
+     <br> </br>
+	<input type="text" id="mytext" required="required" pattern="[a-c A-B{@}]"/>
+	 <br> </br>
+        <label>Password</label>
+         <br> </br>
+     <input type="text" id="mytext" name="uname" required="required" pattern="[a-z A-Z {@}]" /></br>
+      <br> </br>
+     <input type="button" onclick="notEmpty()" value="formValidate"/>
+    <br> </br>
+     <input type="reset" value="clear"/>
+     <input type="submit" value="submit"/>
+     </form
+</body
