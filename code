@@ -3,8 +3,8 @@
 		
 		function notEmpty()
 		{
-             var mytextfield=document.getElementById('mytext');
-             if(mytext.value!='')
+                   var mytextfield=document.getElementById('mytext');
+                   if(mytext.value!='')
              {
              	alert("you entered:"+mytext);
              }
